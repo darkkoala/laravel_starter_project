@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<x-layout>
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+    <h1>Hello Brian</h1>
 
-       
-    </head>
-    <body>
-        
+</x-layout>
 
-        <h1>Hello Brian</h1>
-
-        <div><a href="/about">About</a> | <a href="/contact">Contact</a></div>
-
-
-
-    </body>
-</html>
