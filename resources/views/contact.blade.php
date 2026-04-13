@@ -11,10 +11,15 @@
     <body>
         
 
-        <h1>Hello Brian</h1>
+        <h1>Contact Us</h1>
 
-        <div><a href="/about">About</a> | <a href="/contact">Contact</a></div>
 
+        <div>
+            <div>Phone: 555-555-5555</div>
+            <div>Email: info@example.com</div>
+            <div>Address: 123 Fake St, City, Province Q1W 2E3</div>
+            <div>Hours: Mon-Fri 9AM-5PM</div>
+        </div>
 
 
     </body>
