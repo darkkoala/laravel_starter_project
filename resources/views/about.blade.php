@@ -11,9 +11,7 @@
     <body>
         
 
-        <h1>Hello Brian</h1>
-
-        <div><a href="/about">About</a> | <a href="/contact">Contact</a></div>
+        <h1>About</h1>
 
 
 
