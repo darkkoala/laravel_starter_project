@@ -16,6 +16,7 @@
                 font-family: 'Nunito', sans-serif;
                 margin: 0;
                 padding: 0;
+                color: lightgray;
             }
             nav {
                 background-color: #333;
@@ -25,6 +26,7 @@
                 color: white;
                 text-decoration: none;
                 margin-right: 1em;
+                 margin-left: 1em;
             }
             nav a:hover {
                 text-decoration: underline;
@@ -41,16 +43,35 @@
                 margin: 0 auto;
             }
 
+            div { padding-top: 1rem; }
+
+            h1 { 
+                color: white;
+                font-size: 2rem;
+                font-weight: bold;
+             }
+
+             h2 { 
+                color: white;
+                font-size: 1rem;
+                font-weight: bold;
+             }
+
+
+
         </style>
+
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
        
     </head>
-    <body>
+    <body class="bg-gray-700 p-6 max-wl-xl mx-auto">
 
         <nav>
             <a href="/">Home</a> | 
             <a href="/about">About</a> | 
-            <a href="/contact">Contact</a>
+            <a href="/contact">Contact</a> | 
+            <a href="/ideas">Ideas</a>
         </nav>
         
         {{ $slot }}
