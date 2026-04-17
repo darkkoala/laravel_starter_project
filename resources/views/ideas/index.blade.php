@@ -5,13 +5,13 @@
     <form method="POST" action="/ideas">
         @csrf
         <div class="w-full max-w-sm">
-            <label for="ideas" class="block mb-2 text-sm font-medium text-gray-200">New Ideas</label>
+            <label for="description" class="block mb-2 text-sm font-medium text-gray-200">New Ideas</label>
             <textarea 
-                id="ideas" 
-                name="ideas"
+                id="description" 
+                name="description"
                 rows="4" 
                 class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" 
-                placeholder="Write your ideas here..."></textarea>
+                placeholder="Write your idea here..."></textarea>
         </div>
 
         <div class="mt-6 flex items-center gap-x-6">
@@ -22,13 +22,15 @@
 
     </form>
 
-    @if (count($ideas))
+    @if ($ideas->count())
         <div>
             <h2>Saved Ideas</h2>
 
             <ul>
                 @foreach ($ideas as $idea)
-                    <li class="text-small">{{ $idea }}</li>
+                    <li>
+                        <a href="/ideas/{{ $idea->id }}" class="text-small">{{ $idea->description }}</a>
+                    </li>
                 @endforeach
 
         </div>
