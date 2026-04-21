@@ -11,18 +11,18 @@
                 id="description" 
                 name="description"
                 rows="4" 
-                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" 
+                class="textarea w-full @error('description') textarea-error @enderror" 
                 placeholder="Write your idea here...">{{ $idea->description }}</textarea>
 
                 <x-forms.error name="description" />
         </div>
 
         <div class="mt-6 flex items-center gap-x-6">
-            <button type="submit" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+            <button type="submit" class="btn">
                 Save
             </button>
 
-            <button type="submit" form="delete-form" class="bg-transparent hover:bg-red-500 text-red-700 font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">
+            <button type="submit" form="delete-form" class="btn btn-error">
                 Delete
             </button>
         </div>
