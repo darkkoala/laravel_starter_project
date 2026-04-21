@@ -13,6 +13,8 @@
                 rows="4" 
                 class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" 
                 placeholder="Write your idea here...">{{ $idea->description }}</textarea>
+
+                <x-forms.error name="description" />
         </div>
 
         <div class="mt-6 flex items-center gap-x-6">
