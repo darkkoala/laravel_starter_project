@@ -14,8 +14,20 @@
         <li><a href="/ideas">Ideas</a></li>
     </ul>
     </div>
-    <div class="navbar-end">
-    <input type="text" placeholder="Search" class="input input-bordered w-64 lg:w-auto" />
+    <div class="navbar-end space-x-2">
+        @auth
+        <form method="POST" action="/logout">
+            @csrf
+            @method('DELETE')
+            <button class="btn btn-ghost">Logout</button>
+        </form>
+
+        @else
+
+            <a href="/register" class="btn">Register</a>
+            <a href="/login" class="btn">Login</a>
+
+        @endauth
     </div>
 </div>
 
