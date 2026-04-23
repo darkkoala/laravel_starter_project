@@ -5,7 +5,7 @@
 
     <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4 mx-auto">
         <legend class="fieldset-legend">Login</legend>
-        <x-forms.error name=email />
+        <x-forms.error name="general" />
 
         <label class="label">Email</label>
         <input type="email" name="email" class="input" placeholder="Email" required />
