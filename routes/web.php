@@ -39,7 +39,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/ideas/{idea}/edit', [IdeaController::class, 'edit']);
     Route::patch('/ideas/{idea}', [IdeaController::class, 'update']);
     Route::delete('/ideas/{idea}', [IdeaController::class, 'destroy']);
-    Route::delete('/ideas', [IdeaController::class, 'destroyAll']);
 });
 
 
