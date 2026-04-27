@@ -1,0 +1,16 @@
+[90m= [39m[34;4mApp\Models\Idea[39;24m {#8633
+    [34mid[39m: [35m2[39m,
+    [34muser_id[39m: [35m1[39m,
+    [34mdescription[39m: [32m"[39m[32mGet my own idea[39m[32m"[39m,
+    [34mcreated_at[39m: [32m"[39m[32m2026-04-23 15:26:39[39m[32m"[39m,
+    [34mupdated_at[39m: [32m"[39m[32m2026-04-23 15:26:39[39m[32m"[39m,
+    [34mstate[39m: [32m"[39m[32mpending[39m[32m"[39m,
+  }
+[90m= [39m[34;4mApp\Models\Idea[39;24m {#8633
+    [34mid[39m: [35m2[39m,
+    [34muser_id[39m: [35m1[39m,
+    [34mdescription[39m: [32m"[39m[32mGet my own idea[39m[32m"[39m,
+    [34mcreated_at[39m: [32m"[39m[32m2026-04-23 15:26:39[39m[32m"[39m,
+    [34mupdated_at[39m: [32m"[39m[32m2026-04-23 15:26:39[39m[32m"[39m,
+    [34mstate[39m: [32m"[39m[32mpending[39m[32m"[39m,
+  }
