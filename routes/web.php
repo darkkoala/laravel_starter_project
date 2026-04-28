@@ -40,5 +40,3 @@ Route::middleware('auth')->group(function () {
     Route::patch('/ideas/{idea}', [IdeaController::class, 'update']);
     Route::delete('/ideas/{idea}', [IdeaController::class, 'destroy']);
 });
-
-
